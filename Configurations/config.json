@@ -1,0 +1,53 @@
+{
+    "ArchiveTimeSpan" : 60,
+    "header" : ["Date", "Description","Summary","Balance"],
+    "defaulttheme" : "DarkBlue3",
+    "ExpenseCategories" : {
+        "Salaries" : ["BANK OF AMERICA, DES", "CHARLOTTE MECKLE DES", "NCDOR IND INCOME DES", "TPG PRODUCTS"],
+        "Transfers" : ["Online Banking transfer"],
+        "Mortgage" : ["PLANET HOME DES"],
+        "Grocery" : ["LOWE'S FOODS", "COMPARE FOODS", "SUVIDHA INTL", "RESTAURANT DEP", "PUBLIX", "WAL-MART", "ALDI", "WAL Wal-Mart S", "SONOCO", "CHARLOTTE MARKET", "FOOD LION"    ],
+        "Gas": ["QT", "CIRCLE K", "BP#", "SHELL", "CITGO", "SUNOCO" ],
+        "Insurance" : ["PROG PREMIER DES"], 
+        "CC Payment" : ["CAPITAL ONE DES", "BELK Rewards DES", "Bank of America Credit Card" ],
+        "Walmart" : ["WM SUPERCENTER", "VISION CENTER", "Harrisburg Wellne", "AHPC"],
+        "Checks" : ["Check"],
+        "Pharmacy" : ["CVS", "PHARMACY", "WALGREENS", "PLANET FIT"],
+        "Hardware" : ["HOMEDEPOT"],
+        "Clothing" : ["BURLINGTON STO", "TJMAX", "BELK", "GOODWILL", "VICTORIA'S SEC"],
+        "Utilities" : ["DUKEENERGYCORPOR DES", "BOSS INTL", "ADT SECURITY", "SPECTRUM", "Spectrum", "CITY OF CONCORD DES", "CITY OF CONCOR", "IC FEE CONCORD DES", "SIMPLEMOBILE", "DOMINION ENERGY", "NETFLIX"  ],
+        "Car Repair" : ["AUTOZONE", "TAKE 5 OIL CHANGE", "PARKING", "WILMER" ],
+        "Wave To Africa" : ["WAVE", "SENDWAVE"],
+        "Laundry": ["TRACY S SEWING"],
+        "Restaurant" : ["CHICK-FIL-A", "GOLDEN CORRAL", "BURGER KING", "MCDONALD'S", "STARBUCKS STORE", "BOJANGLES", "BACGATEWAYVILLAGE", "NNT SUNFLOUR", "SUNFLOUR BAKING"],
+        "Others" : []
+    },
+   "Bills": 
+   {
+        "Water & Sewage": ["CITY OF CONCORD DES", "CITY OF CONCOR", "IC FEE CONCORD DES"],
+        "Gas" : ["DOMINION ENERGY"],
+        "Electricity": ["DUKEENERGYCORPOR DES"],
+        "Telephone" : ["BOSS INTL", "SIMPLEMOBILE"],
+        "TV & Internet" : ["SPECTRUM", "Spectrum", "NETFLIX" ],
+        "Others": []
+   },
+   
+   "Grocery Distribution": 
+   {
+        "Compare Food": ["COMPARE FOODS"],
+        "Publix" : ["PUBLIX"],
+        "Indian Store": ["SUVIDHA INT"],
+        "Restaurant Depot" : ["RESTAURANT DEP"],
+        "ALDIS" : ["ALDI" ],
+        "LOWE Food": ["LOWE'S FOODS"],
+        "Ghanaen Store": ["CHARLOTTE MARKET"],
+        "Others": []
+   },
+   "Utility Distribution":
+   {
+    "Water & Sewage": ["CITY OF CONCORD DES", "CITY OF CONCOR", "IC FEE CONCORD DES"],
+    "Gas" : ["DOMINION ENERGY"],
+    "Electricity": ["DUKEENERGYCORPOR DES"],
+    "Security": ["ADT SECURITY"]
+   } 
+}
