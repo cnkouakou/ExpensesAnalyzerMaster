@@ -1,0 +1,600 @@
+[2024-06-29 19:20:59.799212]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 684 
+[2024-06-29 19:20:59.801682]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 232 
+[2024-06-29 19:20:59.841622]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 300 
+[2024-06-29 19:20:59.868622]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 389 
+[2024-06-29 19:20:59.882323]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 427 
+[2024-06-29 19:20:59.885528]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 540 
+[2024-06-29 19:20:59.894531]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 443 
+[2024-06-29 19:20:59.896530]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 498 
+[2024-06-29 19:20:59.905538]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 778 
+[2024-06-29 19:20:59.909528]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 268 
+[2024-06-29 19:20:59.911528]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 281 
+[2024-06-29 19:20:59.913528]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 338 
+[2024-06-29 19:21:00.135708]   
+[2024-06-29 19:21:00.135708]  =========================================Starting  Statement analyzer========================================
+[2024-06-29 19:21:00.137711]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 129 
+[2024-06-29 19:21:00.138711]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:21:00.149706]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 297 
+[2024-06-29 19:21:00.150709]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 145 
+[2024-06-29 19:21:00.153705]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.154707]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.156708]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.157708]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.159708]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.160707]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.162709]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.163708]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.164708]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.166708]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.167707]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.168707]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.169707]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.171713]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.173708]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.174709]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.175709]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:00.177708]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:21:02.239329]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:23:48.432979]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:24:27.568227]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:24:43.234601]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 189 
+[2024-06-29 19:31:00.637459]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 684 
+[2024-06-29 19:31:00.639460]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 232 
+[2024-06-29 19:31:00.644459]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 300 
+[2024-06-29 19:31:00.661459]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 389 
+[2024-06-29 19:31:00.674459]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 427 
+[2024-06-29 19:31:00.676460]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 540 
+[2024-06-29 19:31:00.686460]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 443 
+[2024-06-29 19:31:00.689461]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 498 
+[2024-06-29 19:31:00.699465]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 778 
+[2024-06-29 19:31:00.709463]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 268 
+[2024-06-29 19:31:00.713463]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 281 
+[2024-06-29 19:31:00.715462]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 338 
+[2024-06-29 19:31:00.786458]   
+[2024-06-29 19:31:00.787459]  =========================================Starting  Statement analyzer========================================
+[2024-06-29 19:31:00.789458]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 129 
+[2024-06-29 19:31:00.790458]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:31:00.794461]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 297 
+[2024-06-29 19:31:00.795461]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 145 
+[2024-06-29 19:31:00.798460]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.799461]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.801461]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.804461]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.805460]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.806461]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.808459]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.811470]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.813466]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.814462]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.816460]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.817468]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.819461]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.820463]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.822460]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.823461]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.826463]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:00.828461]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:31:02.422865]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:31:23.348090]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 189 
+[2024-06-29 19:33:41.890640]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 684 
+[2024-06-29 19:33:48.000022]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 168 
+[2024-06-29 19:33:48.011021]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 232 
+[2024-06-29 19:33:48.031023]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 300 
+[2024-06-29 19:33:48.067021]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 389 
+[2024-06-29 19:33:48.091029]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 427 
+[2024-06-29 19:33:48.095033]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 540 
+[2024-06-29 19:33:48.113021]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 443 
+[2024-06-29 19:33:48.115021]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 498 
+[2024-06-29 19:33:48.130024]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 779 
+[2024-06-29 19:33:48.135020]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 268 
+[2024-06-29 19:33:48.138021]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 281 
+[2024-06-29 19:33:48.140021]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 338 
+[2024-06-29 19:33:48.208026]   
+[2024-06-29 19:33:48.209020]  =========================================Starting  Statement analyzer========================================
+[2024-06-29 19:33:48.212023]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 129 
+[2024-06-29 19:33:48.215021]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:33:48.218018]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 297 
+[2024-06-29 19:33:48.219019]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 145 
+[2024-06-29 19:33:48.221018]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.223020]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.224020]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.225020]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.229024]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.230022]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.232021]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.233022]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.234021]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.235020]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.236020]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.239024]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.240020]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.242033]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.245026]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.247033]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.249023]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:48.250020]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:33:49.935598]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:37:07.508944]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 189 
+[2024-06-29 19:41:35.891372]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 684 
+[2024-06-29 19:41:35.892374]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 168 
+[2024-06-29 19:41:35.902376]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 232 
+[2024-06-29 19:41:35.923374]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 300 
+[2024-06-29 19:41:35.977375]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 389 
+[2024-06-29 19:41:36.007374]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 427 
+[2024-06-29 19:41:36.010375]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 540 
+[2024-06-29 19:41:36.045372]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 443 
+[2024-06-29 19:41:36.048377]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 498 
+[2024-06-29 19:41:36.069381]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 779 
+[2024-06-29 19:41:36.074375]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 268 
+[2024-06-29 19:41:36.076375]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 281 
+[2024-06-29 19:41:36.077374]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 338 
+[2024-06-29 19:41:36.143377]   
+[2024-06-29 19:41:36.144377]  =========================================Starting  Statement analyzer========================================
+[2024-06-29 19:41:36.146377]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 129 
+[2024-06-29 19:41:36.148382]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:41:36.152379]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 297 
+[2024-06-29 19:41:36.153376]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 145 
+[2024-06-29 19:41:36.156375]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.157376]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.159375]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.160374]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.161375]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.162374]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.164378]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.166379]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.168378]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.169377]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.170378]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.171374]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.172374]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.174377]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.175375]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.176375]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.178376]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:36.179373]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:41:37.813806]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:41:43.565092]  Tabulation of bills...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1308 
+[2024-06-29 19:42:47.757560]  line chart of groceries...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1140 
+[2024-06-29 19:44:13.036724]  Entering CategoryStats...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 974 
+[2024-06-29 19:44:49.860944]  Entering CategoryStats...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 974 
+[2024-06-29 19:44:58.308501]  Entering CategoryStats...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 974 
+[2024-06-29 19:45:03.076920]  Entering GroceryStats...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 861 
+[2024-06-29 19:45:15.023045]  Table of groceries...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1449 
+[2024-06-29 19:47:44.452845]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 189 
+[2024-06-29 19:50:09.122599]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 684 
+[2024-06-29 19:50:09.124594]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 168 
+[2024-06-29 19:50:09.134595]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 232 
+[2024-06-29 19:50:09.160599]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 300 
+[2024-06-29 19:50:09.233593]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 389 
+[2024-06-29 19:50:09.274595]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 427 
+[2024-06-29 19:50:09.277206]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 540 
+[2024-06-29 19:50:09.326206]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 443 
+[2024-06-29 19:50:09.327204]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 498 
+[2024-06-29 19:50:09.356204]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 779 
+[2024-06-29 19:50:09.360204]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 268 
+[2024-06-29 19:50:09.362203]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 281 
+[2024-06-29 19:50:09.364204]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 338 
+[2024-06-29 19:50:09.431207]   
+[2024-06-29 19:50:09.432206]  =========================================Starting  Statement analyzer========================================
+[2024-06-29 19:50:09.434211]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 129 
+[2024-06-29 19:50:09.436207]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:50:09.439205]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 297 
+[2024-06-29 19:50:09.440202]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 145 
+[2024-06-29 19:50:09.443205]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.444204]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.446204]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.447204]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.448205]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.450205]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.451206]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.452205]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.454204]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.455203]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.456204]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.458205]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.459206]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.460204]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.462208]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.464210]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.467211]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:09.469206]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 19:50:11.110672]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 19:52:11.811053]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 189 
+[2024-06-29 20:00:32.612580]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 691 
+[2024-06-29 20:00:32.613582]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 169 
+[2024-06-29 20:00:32.642580]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 239 
+[2024-06-29 20:00:32.658579]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 307 
+[2024-06-29 20:00:32.678579]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 396 
+[2024-06-29 20:00:32.692580]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 434 
+[2024-06-29 20:00:32.695581]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 547 
+[2024-06-29 20:00:32.706580]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 450 
+[2024-06-29 20:00:32.708583]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 505 
+[2024-06-29 20:00:32.720583]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 786 
+[2024-06-29 20:00:32.727582]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 275 
+[2024-06-29 20:00:32.729581]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 288 
+[2024-06-29 20:00:32.731580]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 345 
+[2024-06-29 20:00:32.803580]   
+[2024-06-29 20:00:32.804581]  =========================================Starting  Statement analyzer========================================
+[2024-06-29 20:00:32.806583]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 129 
+[2024-06-29 20:00:32.808583]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 20:00:32.811580]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 297 
+[2024-06-29 20:00:32.812579]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 145 
+[2024-06-29 20:00:32.815577]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.816579]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.817579]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.819579]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.820579]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.821581]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.824582]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.825580]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.827580]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.828581]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.829580]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.830580]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.832581]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.833581]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.834580]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.836584]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.838579]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:32.840582]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 20:00:34.473813]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 20:01:19.654303]  Tabulation of groceries...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1331 
+[2024-06-29 20:01:46.115339]  line chart of groceries...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1147 
+[2024-06-29 20:02:51.936570]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 196 
+[2024-06-29 22:14:54.495257]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 691 
+[2024-06-29 22:14:54.497258]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 169 
+[2024-06-29 22:14:54.552736]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 239 
+[2024-06-29 22:14:54.566736]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 307 
+[2024-06-29 22:14:54.587736]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 396 
+[2024-06-29 22:14:54.601732]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 434 
+[2024-06-29 22:14:54.604734]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 547 
+[2024-06-29 22:14:54.616733]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 450 
+[2024-06-29 22:14:54.619734]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 505 
+[2024-06-29 22:14:54.628733]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 786 
+[2024-06-29 22:14:54.634732]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 275 
+[2024-06-29 22:14:54.636733]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 288 
+[2024-06-29 22:14:54.638738]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 345 
+[2024-06-29 22:14:54.704732]   
+[2024-06-29 22:14:54.705733]  =========================================Starting  Statement analyzer========================================
+[2024-06-29 22:14:54.706734]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 129 
+[2024-06-29 22:14:54.708733]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 22:14:54.712734]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 297 
+[2024-06-29 22:14:54.713734]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 145 
+[2024-06-29 22:14:54.717734]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.719736]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.720734]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.721733]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.723734]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.724733]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.726733]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.728739]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.730733]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.732735]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.734735]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.736737]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.737734]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.738733]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.740736]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.741733]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.743737]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:54.744733]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 245 
+[2024-06-29 22:14:57.008993]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 376 
+[2024-06-29 22:15:02.474993]  Tabulation of bills...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1315 
+[2024-06-29 22:18:44.505006]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 692 
+[2024-06-29 22:18:44.506006]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 170 
+[2024-06-29 22:18:44.517001]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 240 
+[2024-06-29 22:18:44.531001]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 308 
+[2024-06-29 22:18:44.552006]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 397 
+[2024-06-29 22:18:44.566980]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 435 
+[2024-06-29 22:18:44.568977]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 548 
+[2024-06-29 22:18:44.578974]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 451 
+[2024-06-29 22:18:44.580975]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 506 
+[2024-06-29 22:18:44.588975]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 787 
+[2024-06-29 22:18:44.594982]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 276 
+[2024-06-29 22:18:44.597977]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 289 
+[2024-06-29 22:18:44.599982]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 346 
+[2024-06-29 22:18:44.665977]   
+[2024-06-29 22:18:44.666980]  =========================================Starting  Statement analyzer========================================
+[2024-06-29 22:18:44.667976]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 130 
+[2024-06-29 22:18:44.669976]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-29 22:18:44.672975]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 298 
+[2024-06-29 22:18:44.673974]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 146 
+[2024-06-29 22:18:44.676974]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.677978]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.678981]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.680974]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.682977]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.683977]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.684976]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.685977]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.687976]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.688976]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.689976]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.691975]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.692974]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.694980]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.697975]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.700977]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.701976]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:44.702975]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:18:46.359048]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-29 22:18:50.269841]  Tabulation of bills...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1316 
+[2024-06-29 22:22:08.338930]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 197 
+[2024-06-29 22:22:58.817576]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 692 
+[2024-06-29 22:22:58.819577]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 170 
+[2024-06-29 22:22:58.829573]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 240 
+[2024-06-29 22:22:58.844729]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 308 
+[2024-06-29 22:22:58.864734]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 397 
+[2024-06-29 22:22:58.879368]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 435 
+[2024-06-29 22:22:58.881366]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 548 
+[2024-06-29 22:22:58.893365]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 451 
+[2024-06-29 22:22:58.895371]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 506 
+[2024-06-29 22:22:58.906367]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 787 
+[2024-06-29 22:22:58.913367]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 276 
+[2024-06-29 22:22:58.915545]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 289 
+[2024-06-29 22:22:58.918548]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 346 
+[2024-06-29 22:22:58.987539]   
+[2024-06-29 22:22:58.988538]  =========================================Starting  Statement analyzer========================================
+[2024-06-29 22:22:58.989538]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 130 
+[2024-06-29 22:22:58.990537]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-29 22:22:58.993540]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 298 
+[2024-06-29 22:22:58.994540]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 146 
+[2024-06-29 22:22:58.997539]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:58.999540]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.001541]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.002540]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.004539]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.005538]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.006540]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.007539]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.009541]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.010539]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.012539]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.013538]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.017539]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.018544]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.020544]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.022543]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.024539]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:22:59.025546]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-29 22:23:00.680158]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-29 22:24:14.959890]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 197 
+[2024-06-30 21:56:40.125739]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 692 
+[2024-06-30 21:56:40.126738]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 170 
+[2024-06-30 21:56:40.205892]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 240 
+[2024-06-30 21:56:40.222893]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 308 
+[2024-06-30 21:56:40.244893]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 397 
+[2024-06-30 21:56:40.260894]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 435 
+[2024-06-30 21:56:40.262893]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 548 
+[2024-06-30 21:56:40.279896]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 451 
+[2024-06-30 21:56:40.282903]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 506 
+[2024-06-30 21:56:40.291897]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 787 
+[2024-06-30 21:56:40.298900]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 276 
+[2024-06-30 21:56:40.302899]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 289 
+[2024-06-30 21:56:40.304899]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 346 
+[2024-06-30 21:56:40.370894]   
+[2024-06-30 21:56:40.371901]  =========================================Starting  Statement analyzer========================================
+[2024-06-30 21:56:40.372894]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 130 
+[2024-06-30 21:56:40.373893]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 21:56:40.383896]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 298 
+[2024-06-30 21:56:40.385894]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 146 
+[2024-06-30 21:56:40.388892]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.390896]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.392895]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.393895]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.395902]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.397897]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.399901]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.401898]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.402896]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.404895]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.405895]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.406894]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.407895]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.409895]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.410894]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.411895]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.414899]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:40.417899]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 21:56:42.639352]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 22:01:05.688066]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 692 
+[2024-06-30 22:01:05.690067]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 170 
+[2024-06-30 22:01:05.700072]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 240 
+[2024-06-30 22:01:05.714071]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 308 
+[2024-06-30 22:01:05.735072]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 397 
+[2024-06-30 22:01:05.749068]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 435 
+[2024-06-30 22:01:05.751068]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 548 
+[2024-06-30 22:01:05.767066]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 451 
+[2024-06-30 22:01:05.769073]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 506 
+[2024-06-30 22:01:05.778066]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 787 
+[2024-06-30 22:01:05.782066]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 276 
+[2024-06-30 22:01:05.785067]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 289 
+[2024-06-30 22:01:05.787070]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 346 
+[2024-06-30 22:01:05.852067]   
+[2024-06-30 22:01:05.853068]  =========================================Starting  Statement analyzer========================================
+[2024-06-30 22:01:05.855067]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 130 
+[2024-06-30 22:01:05.856067]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 22:01:05.859066]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 298 
+[2024-06-30 22:01:05.860066]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 146 
+[2024-06-30 22:01:05.862066]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.864066]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.865067]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.867069]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.868068]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.869067]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.871067]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.872067]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.873066]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.874067]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.876067]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.877068]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.879067]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.881067]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.884068]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.886068]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.887067]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:05.888069]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:01:07.535545]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 22:01:20.776968]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 197 
+[2024-06-30 22:03:28.444208]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 692 
+[2024-06-30 22:03:28.446208]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 170 
+[2024-06-30 22:03:28.456203]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 240 
+[2024-06-30 22:03:28.471203]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 308 
+[2024-06-30 22:03:28.493208]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 397 
+[2024-06-30 22:03:28.507203]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 435 
+[2024-06-30 22:03:28.510204]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 548 
+[2024-06-30 22:03:28.523201]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 451 
+[2024-06-30 22:03:28.525200]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 506 
+[2024-06-30 22:03:28.536207]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 787 
+[2024-06-30 22:03:28.542209]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 276 
+[2024-06-30 22:03:28.544203]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 289 
+[2024-06-30 22:03:28.546202]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 346 
+[2024-06-30 22:03:28.614203]   
+[2024-06-30 22:03:28.615204]  =========================================Starting  Statement analyzer========================================
+[2024-06-30 22:03:28.649203]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 130 
+[2024-06-30 22:03:28.652205]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 22:03:28.656203]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 298 
+[2024-06-30 22:03:28.657203]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 146 
+[2024-06-30 22:03:28.659203]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.662203]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.663204]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.665211]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.666204]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.670206]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.671204]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.673202]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.674204]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.676206]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.677205]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.678204]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.681213]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.682206]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.684203]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.686206]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.688208]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:28.690204]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:03:30.288649]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 22:06:11.124796]  Table of groceries...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1457 
+[2024-06-30 22:07:38.156531]  Entering GroceryStats...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 869 
+[2024-06-30 22:08:21.300615]  Entering BillsStats...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 813 
+[2024-06-30 22:08:28.412038]  Entering CategoryStats...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 982 
+[2024-06-30 22:09:17.406761]  bar chart of groceries...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1109 
+[2024-06-30 22:10:01.071800]  Cleaning up--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 197 
+[2024-06-30 22:20:27.284253]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 692 
+[2024-06-30 22:20:27.286253]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 170 
+[2024-06-30 22:20:27.296248]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 240 
+[2024-06-30 22:20:27.311176]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 308 
+[2024-06-30 22:20:27.332176]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 397 
+[2024-06-30 22:20:27.346176]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 435 
+[2024-06-30 22:20:27.349170]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 548 
+[2024-06-30 22:20:27.364171]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 451 
+[2024-06-30 22:20:27.366179]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 506 
+[2024-06-30 22:20:27.374177]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 787 
+[2024-06-30 22:20:27.380174]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 276 
+[2024-06-30 22:20:27.382170]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 289 
+[2024-06-30 22:20:27.385172]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 346 
+[2024-06-30 22:20:27.456171]   
+[2024-06-30 22:20:27.457171]  =========================================Starting  Statement analyzer========================================
+[2024-06-30 22:20:27.459173]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 130 
+[2024-06-30 22:20:27.461171]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 22:20:27.463172]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 298 
+[2024-06-30 22:20:27.465171]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 146 
+[2024-06-30 22:20:27.467172]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.469171]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.470171]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.471171]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.472171]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.473171]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.475173]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.476171]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.477172]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.478170]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.480171]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.481171]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.482171]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.483171]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.486173]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.487172]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.491173]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:27.493176]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:20:29.173377]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 22:21:44.235590]  Tabulation of bills...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1316 
+[2024-06-30 22:50:59.612440]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 692 
+[2024-06-30 22:50:59.614440]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 170 
+[2024-06-30 22:50:59.624440]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 240 
+[2024-06-30 22:50:59.638439]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 308 
+[2024-06-30 22:50:59.659439]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 397 
+[2024-06-30 22:50:59.673440]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 435 
+[2024-06-30 22:50:59.675440]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 548 
+[2024-06-30 22:50:59.688442]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 451 
+[2024-06-30 22:50:59.691444]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 506 
+[2024-06-30 22:50:59.699442]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 787 
+[2024-06-30 22:50:59.708446]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 276 
+[2024-06-30 22:50:59.711442]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 289 
+[2024-06-30 22:50:59.713440]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 346 
+[2024-06-30 22:50:59.780439]   
+[2024-06-30 22:50:59.780439]  =========================================Starting  Statement analyzer========================================
+[2024-06-30 22:50:59.782440]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 130 
+[2024-06-30 22:50:59.783440]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 22:50:59.786439]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 298 
+[2024-06-30 22:50:59.787439]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 146 
+[2024-06-30 22:50:59.790440]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.792441]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.793440]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.795441]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.797442]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.798441]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.800440]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.801443]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.803444]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.805441]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.807442]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.808439]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.810439]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.811441]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.812439]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.814439]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.815443]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:50:59.816441]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 22:51:01.457321]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 22:51:04.393088]  Tabulation of bills...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1316 
+[2024-06-30 23:07:02.248373]  Entering prep in annual reporting ..--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 692 
+[2024-06-30 23:07:02.250375]  generating Annual Statement--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 170 
+[2024-06-30 23:07:02.260375]  creating Montly Distribution - distributes the data for each month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 240 
+[2024-06-30 23:07:02.274375]  updating monthly total per category--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 308 
+[2024-06-30 23:07:02.294374]  updating monthly bills--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 397 
+[2024-06-30 23:07:02.308375]  getting bill values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 435 
+[2024-06-30 23:07:02.310375]  updating monthly groceries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 548 
+[2024-06-30 23:07:02.321377]  Getting grocery values--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 451 
+[2024-06-30 23:07:02.323377]  updating monthly utilities--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 506 
+[2024-06-30 23:07:02.334374]  calculating bills mean values...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 787 
+[2024-06-30 23:07:02.339376]  Calculating total bills per month--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 276 
+[2024-06-30 23:07:02.341375]  Calculating monthly total expenses--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 289 
+[2024-06-30 23:07:02.342375]  updating monthly salaries--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 346 
+[2024-06-30 23:07:02.407381]   
+[2024-06-30 23:07:02.408375]  =========================================Starting  Statement analyzer========================================
+[2024-06-30 23:07:02.409382]  Getting Expense Categories--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 130 
+[2024-06-30 23:07:02.411374]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 23:07:02.415375]  Creating Gui.--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 298 
+[2024-06-30 23:07:02.416376]  Getting Header--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 146 
+[2024-06-30 23:07:02.418377]  Creating tab for Salaries category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.420377]  Creating tab for Transfers category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.421377]  Creating tab for Mortgage category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.422376]  Creating tab for Grocery category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.424377]  Creating tab for Gas category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.425377]  Creating tab for Insurance category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.427379]  Creating tab for CC Payment category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.428376]  Creating tab for Walmart category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.429378]  Creating tab for Checks category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.431376]  Creating tab for Pharmacy category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.432375]  Creating tab for Hardware category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.433376]  Creating tab for Clothing category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.434376]  Creating tab for Utilities category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.435376]  Creating tab for Car Repair category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.437376]  Creating tab for Wave To Africa category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.438380]  Creating tab for Laundry category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.440378]  Creating tab for Restaurant category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:02.442379]  Creating tab for Others category table--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 246 
+[2024-06-30 23:07:04.110407]  Creating Empty Category Data. --->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\smtAnalyzer.py, line: 377 
+[2024-06-30 23:07:10.583650]  Tabulation of bills...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1316 
+[2024-06-30 23:08:31.842449]  Tabulation of groceries...--->File: C:\Sandbox\My Python Code\ExpensesAnalyzer\src\annualReporting.py, line: 1364 
