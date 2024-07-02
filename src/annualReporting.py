@@ -19,6 +19,7 @@ import shutil
 import statistics as stats
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
+import matplotlib.cm
 import numpy as np
 from matplotlib.patches import ConnectionPatch
 import calendar
@@ -78,7 +79,7 @@ class Annual():
     def __init__(self) -> None:
         self.months = list(calendar.month_name)
         self.currentMonth,  self.currentyear = self.getCurrentMonthandYear()
-        self.monthsToNumber = dict((month, index) for index, month in enumerate(calendar.month_abbr) if month)
+        self.monthsToNumber = dict((month, index) for index, month in enumerate(calendar.month_name) if month)
         self.currentMonthNumber = self.monthsToNumber[self.currentMonth]
         self.theReport  = pdfReports(self.currentMonth, self.currentyear)
         self.thepptxReport = PPTXReport(self.currentMonth, self.currentyear)
@@ -164,7 +165,8 @@ class Annual():
         self.annualStatementFolder = self.statementfolder + 'annualStatements\\'
         return self.statementfolder, self.annualStatementFolder
 
-    def generateAnnualStatement(self): #internal 
+    def generateAnnualStatement(self): #internal \
+        self.annualstatmentFileList.clear()
         log("generating Annual Statement" + fileandline(), level3)
         # get the list of all statement files
         for file in os.listdir(self.statementfolder):   
@@ -172,6 +174,12 @@ class Annual():
             if file.endswith('.csv'):
                 self.annualstatmentFileList.append(file)
         #now build a statement file with all the statements
+        filename = self.annualStatementFolder + self.annualstament
+        try:
+            os.remove(filename) #delete it and create 
+        except OSError as e: # this would be "except OSError, e:" before Python 2.6
+            print (e)
+
         with open(self.annualStatementFolder + self.annualstament, 'at', newline="") as of:
             csvwriter = csv.writer(of)
             for file in self.annualstatmentFileList:
@@ -684,6 +692,7 @@ class Annual():
         log("Entering prep in annual reporting .." + fileandline(), level=level3)
 
         self.getFolders()                       # Initializes all the directories where we can find things
+        self.generateAnnualStatement()          # merge all the statements together
         self.createMontlyDistribution()         # Distrubutes the raw data to each months 
         self.CreateEmptyMonthlyTotalExPerCat()  # Craetes an empty structure for MonthlyTotalExPerCat per category
         self.updateMonthlyTotalperCat()         # fills in the data for MonthlyTotalExPerCat

@@ -25,6 +25,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
 from matplotlib.patches import ConnectionPatch
+import matplotlib.cm
 import calendar
 from fpdf import FPDF
 from annualReporting import *
@@ -417,6 +418,8 @@ def loadallCategoryDataDict():
                 found = False
                 catdefinition = ExpenseCategoriesdataDict[cat]
                 for val in catdefinition:
+                    val = val.lower()
+                    description = description.lower()
                     if val in description:
                         catdata = allcatogory_dict[cat]
                         catdata[cat].append(entry)
@@ -463,6 +466,8 @@ def getMonthData(window, month):
             found = False
             catdefinition = ExpenseCategoriesdataDict[cat]
             for val in catdefinition:
+                val = val.lower()
+                description = description.lower()
                 if val in description:
                     catdata = allcatogory_dict[cat]
                     catdata[cat].append(entry)
